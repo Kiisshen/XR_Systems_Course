@@ -1157,6 +1157,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 699218350427376628, guid: 849ef981216b0cd4186587a7c585fff1, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e9df87b876958d48a4c1d730e966669, type: 2}
+    - target: {fileID: 699218350427376628, guid: 849ef981216b0cd4186587a7c585fff1, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e9df87b876958d48a4c1d730e966669, type: 2}
     - target: {fileID: 1263481170301730600, guid: 849ef981216b0cd4186587a7c585fff1, type: 3}
       propertyPath: m_Name
       value: Magnifying Glass
@@ -2232,8 +2240,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CustomGrab
   nearObjects: []
-  grabbedObject: {fileID: 0}
   action: {fileID: 691713043}
+  otherHand: {fileID: 0}
+  grabbedObject: {fileID: 0}
+  grabbing: 0
   doubleRotation: 0
 --- !u!114 &1801357838
 MonoBehaviour:
@@ -2248,8 +2258,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CustomGrab
   nearObjects: []
-  grabbedObject: {fileID: 0}
   action: {fileID: 1103670734}
+  otherHand: {fileID: 0}
+  grabbedObject: {fileID: 0}
+  grabbing: 0
   doubleRotation: 0
 --- !u!65 &1801357847
 BoxCollider:
